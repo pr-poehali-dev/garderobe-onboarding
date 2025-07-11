@@ -9,7 +9,7 @@ const Index = () => {
       {/* Hero Section */}
       <div className="container mx-auto px-4 pt-20 pb-16">
         <div className="text-center max-w-4xl mx-auto">
-          <h1 className="text-6xl font-bold text-navy-900 mb-6  leading-tight">
+          <h1 className="text-6xl font-bold text-navy-900 mb-6 font-montserrat leading-tight">
             Добро пожаловать в Garderobe
           </h1>
           <p className="text-xl text-navy-700 mb-8 leading-relaxed max-w-3xl mx-auto">
@@ -36,7 +36,7 @@ const Index = () => {
                 <div className="w-16 h-16 bg-coral-100 rounded-full flex items-center justify-center mx-auto mb-6">
                   <Icon name="Shirt" size={32} className="text-coral-600" />
                 </div>
-                <h3 className="text-2xl font-bold text-navy-900 mb-4 ">
+                <h3 className="text-2xl font-bold text-navy-900 mb-4 font-montserrat">
                   Умный гардероб
                 </h3>
                 <p className="text-navy-600 leading-relaxed">
@@ -52,7 +52,7 @@ const Index = () => {
                 <div className="w-16 h-16 bg-mint-100 rounded-full flex items-center justify-center mx-auto mb-6">
                   <Icon name="Heart" size={32} className="text-mint-600" />
                 </div>
-                <h3 className="text-2xl font-bold text-navy-900 mb-4 ">
+                <h3 className="text-2xl font-bold text-navy-900 mb-4 font-montserrat">
                   Вишлист мечты
                 </h3>
                 <p className="text-navy-600 leading-relaxed">
@@ -67,7 +67,7 @@ const Index = () => {
                 <div className="w-16 h-16 bg-navy-100 rounded-full flex items-center justify-center mx-auto mb-6">
                   <Icon name="Sparkles" size={32} className="text-navy-600" />
                 </div>
-                <h3 className="text-2xl font-bold text-navy-900 mb-4 ">
+                <h3 className="text-2xl font-bold text-navy-900 mb-4 font-montserrat">
                   Магия стиля
                 </h3>
                 <p className="text-navy-600 leading-relaxed">
@@ -81,7 +81,7 @@ const Index = () => {
 
           {/* CTA Section */}
           <div className="text-center">
-            <h2 className="text-3xl font-bold text-navy-900 mb-4 ">
+            <h2 className="text-3xl font-bold text-navy-900 mb-4 font-montserrat">
               Готовы начать стильное путешествие?
             </h2>
             <p className="text-lg text-navy-600 mb-8">
@@ -98,7 +98,7 @@ const Index = () => {
           <div className="max-w-md mx-auto">
             <Card className="border-0 shadow-2xl">
               <CardContent className="p-8">
-                <h3 className="text-2xl font-bold text-center text-navy-900 mb-6 ">
+                <h3 className="text-2xl font-bold text-center text-navy-900 mb-6 font-montserrat">
                   Создать аккаунт
                 </h3>
                 <div className="space-y-4 mb-6">
